@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiscesValidationYjiang2", "PiscesValidationYjiang2\PiscesValidationYjiang2.csproj", "{615ACF0F-C919-4519-8F26-85905ABDC699}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequiredFiles", "RequiredFiles", "{3A599272-22DA-4DF4-A582-B9C0DFCBD7A7}"
+	ProjectSection(SolutionItems) = preProject
+		RequiredFiles\FileCompression.dll = RequiredFiles\FileCompression.dll
+		RequiredFiles\ILMNcommon.dll = RequiredFiles\ILMNcommon.dll
+		RequiredFiles\libFileCompression.so = RequiredFiles\libFileCompression.so
+		RequiredFiles\SequencingFiles.dll = RequiredFiles\SequencingFiles.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateSampleTruth", "GenerateSampleTruth\GenerateSampleTruth.csproj", "{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorTests", "ValidatorTests\ValidatorTests.csproj", "{80283205-E090-4B1C-9091-5F4E1A5A1E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunDifferentCombinationArguments", "RunDifferentCombinationArguments\RunDifferentCombinationArguments.csproj", "{A1938B54-7B3E-457C-9D16-F9142C76418F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Debug|x64.ActiveCfg = Debug|x64
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Debug|x64.Build.0 = Debug|x64
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Release|x64.ActiveCfg = Release|x64
+		{615ACF0F-C919-4519-8F26-85905ABDC699}.Release|x64.Build.0 = Release|x64
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Debug|x64.ActiveCfg = Debug|x64
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Debug|x64.Build.0 = Debug|x64
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Release|x64.ActiveCfg = Release|x64
+		{7DCFE302-E641-473E-ABD1-EE8C6EA27AAC}.Release|x64.Build.0 = Release|x64
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Debug|x64.Build.0 = Debug|Any CPU
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Release|x64.ActiveCfg = Release|Any CPU
+		{80283205-E090-4B1C-9091-5F4E1A5A1E7C}.Release|x64.Build.0 = Release|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Debug|x64.Build.0 = Debug|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Release|x64.ActiveCfg = Release|Any CPU
+		{A1938B54-7B3E-457C-9D16-F9142C76418F}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ussd-prd-tfsa01:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GenerateSampleTruth\\GenerateSampleTruth.csproj
+		SccProjectName1 = GenerateSampleTruth
+		SccLocalPath1 = GenerateSampleTruth
+		SccProjectUniqueName2 = PiscesValidationYjiang2\\PiscesValidationYjiang2.csproj
+		SccProjectName2 = PiscesValidationYjiang2
+		SccLocalPath2 = PiscesValidationYjiang2
+		SccProjectUniqueName3 = ValidatorTests\\ValidatorTests.csproj
+		SccProjectName3 = ValidatorTests
+		SccLocalPath3 = ValidatorTests
+		SccProjectUniqueName4 = RunDifferentCombinationArguments\\RunDifferentCombinationArguments.csproj
+		SccProjectName4 = RunDifferentCombinationArguments
+		SccLocalPath4 = RunDifferentCombinationArguments
+	EndGlobalSection
+EndGlobal
